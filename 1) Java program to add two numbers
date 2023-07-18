@@ -1,0 +1,13 @@
+
+public class Add {
+	public static void main(String[] args) {
+		System.out.println("Enter two Number:");
+		
+		int first=345534;
+		int second=36798987;
+		int add=first+second;
+		System.out.println("Addition of a given number:"+add);
+	}
+
+}
+
