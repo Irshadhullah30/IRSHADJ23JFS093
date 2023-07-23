@@ -1,0 +1,17 @@
+float n1=33.79f , n2=67.48f;
+	
+	System.out.println("----Before swapping----");
+	System.out.println("First number is:"+n1);
+	System.out.println("Second number is:"+n2);
+	
+	float temp = n1;
+	
+	n1=n2;
+	
+	n2=temp;
+	
+	System.out.println("----After swapping----");
+	System.out.println("First number is:"+n1);
+	System.out.println("Second number is:"+n2);
+	
+	
