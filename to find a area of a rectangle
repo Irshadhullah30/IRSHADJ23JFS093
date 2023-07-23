@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Areaofarectangle {
+
+	public static void main(String[] args) {
+		System.out.println("=------TO FIND A AREA OF A RECTANGLR--------");
+		Scanner length = new Scanner(System.in);
+		System.out.println("Enter the length of the rectangle:");
+		
+	    int len = length.nextInt();
+	    
+	    Scanner breadth = new Scanner(System.in);
+	    System.out.println("Enter the breadth of the rectangle:");
+	    
+	    int bdt = breadth.nextInt();
+	    
+	    int answer = len*bdt;
+	    
+	    System.out.println("The area of the rectangle is:"+ answer);
+	    
+	    System.out.print("-------------Done by irshadhullah---------------");
+	}
+	
+}
