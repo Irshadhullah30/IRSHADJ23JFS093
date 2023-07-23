@@ -1,0 +1,37 @@
+import java.util.Scanner;
+public class Computequotientandremainder {
+public static void main(String[] args) {
+	
+int divident = 10, divisor = 5;
+      
+      int quotient = divident / divisor;
+      int reminder = divident % divisor;
+      
+      System.out.println("The reminder of the given number is:"+ reminder);
+      System.out.println("The remainder of the given value is:"+ quotient);
+      
+    // to compute a quotient and remainder by the input from the;
+      
+      Scanner input = new Scanner(System.in);
+      System.out.println("Enter a number (Divident):");
+      
+      int divident = input.nextInt();
+      
+      Scanner input2 = new Scanner(System.in);
+      System.out.println("Enter a number (Divfisor):");
+      
+      int divisor = input2.nextInt();
+      
+      int Division = divident / divisor;
+      int division = divident % divisor ;
+      
+      System.out.println("The quotient of the given input is:"+Division);
+      System.out.println("The remainder of the given input is:"+division);
+      System.out.println("Done by Irshadhullah);
+      
+      
+     
+      
+      
+}
+}
