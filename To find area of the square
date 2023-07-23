@@ -8,14 +8,14 @@ public class Areaofsquare {
 		Scanner side1 = new Scanner(System.in);
 		System.out.print("Enter the side one of the square:");
 		
-		int sidea = side1.nextInt();
+		double sidea = side1.nextDouble();
 		
 		Scanner side2 = new Scanner(System.in);
 		System.out.print("Enter the side two of the square:");
 		
-		int sideb = side2.nextInt();
+		double sideb = side2.nextDouble();
 		
-		int area = sidea * sideb;
+		double area = sidea * sideb;
 		
 		System.out.println("The area of the square is:"+ area);
 		
