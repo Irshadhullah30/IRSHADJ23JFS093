@@ -13,5 +13,44 @@ float n1=33.79f , n2=67.48f;
 	System.out.println("----After swapping----");
 	System.out.println("First number is:"+n1);
 	System.out.println("Second number is:"+n2);
+
+// from grtting input from the useer;
+
+import java.util.Scanner;
+public class Swapping {
+public static void main(String[] args) {
+	
+
+	Scanner in1 = new Scanner(System.in);
+	System.out.println("Enter a first number:");
+	
+	float n1 = in1.nextFloat();
+	
+	Scanner in2 = new Scanner(System.in);
+	System.out.println("Enter a second number:");
+	
+	float n2 = in2.nextFloat();
+	
+	
+	
+	
+	System.out.println("----Before swapping----");
+	System.out.println("First number is:"+n1);
+	System.out.println("Second number is:"+n2);
+	
+	float temp = n1;
+	
+	n1=n2;
+	
+	n2=temp;
+	
+	System.out.println("----After swapping----");
+	System.out.println("First number is:"+n1);
+	System.out.println("Second number is:"+n2);
+	
+	
+
+}
+}
 	
 	
