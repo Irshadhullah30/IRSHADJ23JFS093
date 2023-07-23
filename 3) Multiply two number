@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Multiplytwonumbers {
+
+	public static void main(String[] args) {
+		System.out.println("Multiplication");
+		
+		
+		Scanner value1 = new Scanner(System.in);
+		System.out.println("Enter a value of x:");
+		int i = value1.nextInt();
+		
+		
+		Scanner value2 = new Scanner(System.in);
+		System.out.println("Enter a value of y:");
+		
+		int j = value2.nextInt();
+		
+		int mul = i*j;
+		
+		System.out.println("The answer is:" + mul);
+		
+		System.out.println("Done by Irshadhullah");
+	}
+}
