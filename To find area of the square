@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Areaofsquare {
+  
+	public static void main(String[] args) {
+		
+		System.out.println("----------------TO FIND AREA OF THE SQUARE---------------------");
+		
+		Scanner side1 = new Scanner(System.in);
+		System.out.print("Enter the side one of the square:");
+		
+		int sidea = side1.nextInt();
+		
+		Scanner side2 = new Scanner(System.in);
+		System.out.print("Enter the side two of the square:");
+		
+		int sideb = side2.nextInt();
+		
+		int area = sidea * sideb;
+		
+		System.out.println("The area of the square is:"+ area);
+		
+		
+		System.out.println("Done by irshadhullah");
+	}
+}
