@@ -8,16 +8,16 @@ public class Areaofthetriangle {
 		Scanner base = new Scanner(System.in);
 		System.out.print("Enter the base of the triangle:");
 		
-		int bottom = base.nextInt();
+		double bottom = base.nextDouble();
 		
 		Scanner length = new Scanner(System.in);
 		System.out.print("Enter the height if the triangle:");
 		
-		int height = base.nextInt();
+		double height = base.nextDouble();
 		
-		int area = bottom * height;
+		double area = bottom * height;
 		
-		int answer = area/2;
+		double answer = area/2;
 		
 		System.out.println("The area of the trainagle is : "+answer);
 		
