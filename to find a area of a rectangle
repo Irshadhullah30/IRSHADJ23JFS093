@@ -6,14 +6,14 @@ public class Areaofarectangle {
 		Scanner length = new Scanner(System.in);
 		System.out.println("Enter the length of the rectangle:");
 		
-	    int len = length.nextInt();
+	    double len = length.nextDouble();
 	    
 	    Scanner breadth = new Scanner(System.in);
 	    System.out.println("Enter the breadth of the rectangle:");
 	    
-	    int bdt = breadth.nextInt();
+	    double bdt = breadth.nextDouble();
 	    
-	    int answer = len*bdt;
+	    double answer = len*bdt;
 	    
 	    System.out.println("The area of the rectangle is:"+ answer);
 	    
