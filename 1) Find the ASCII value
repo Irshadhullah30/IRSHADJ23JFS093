@@ -1,0 +1,14 @@
+
+public class Typecasting {
+	public static void main(String[] args) { 
+	
+		char ch = 'I';
+		
+	    int ascii= ch;
+	    
+	    System.out.println("The ascii key value of a given number is:" +ascii);
+		
+	
+		 } 
+		
+}
