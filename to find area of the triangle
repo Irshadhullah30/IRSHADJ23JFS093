@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class Areaofthetriangle {
+ 
+	public static void main(String[] args) {
+		
+		System.out.println("------------------AREA OF THE TRIANGLE--------------------");
+		
+		Scanner base = new Scanner(System.in);
+		System.out.print("Enter the base of the triangle:");
+		
+		int bottom = base.nextInt();
+		
+		Scanner length = new Scanner(System.in);
+		System.out.print("Enter the height if the triangle:");
+		
+		int height = base.nextInt();
+		
+		int area = bottom * height;
+		
+		int answer = area/2;
+		
+		System.out.println("The area of the trainagle is : "+answer);
+		
+		System.out.println("DONE BY IRSHADHULLAH");
+	}
+	
+	
+}
