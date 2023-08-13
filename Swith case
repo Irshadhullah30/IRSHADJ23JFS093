@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class forlooptes {
+
+	public static void main(String[] args) {
+		
+		Scanner input= new Scanner(System.in);
+		System.out.println("Enter the Number:");
+		int tech=input.nextInt();
+		 
+		 switch(tech){ 
+		case 1: 
+		 { 
+		 System.out.println("java"); 
+		 break; 
+		 } 
+		 case 2:{ 
+		 System.out.println("ES6"); 
+		 break; 
+		 } 
+		 default:{ 
+		 System.out.println("Not Listed.."); 
+		 } 
+		 } 
+		 } 
+	 
+		}
+
+			  
+		
+	 
+	
+	
+	 
+	
+			
