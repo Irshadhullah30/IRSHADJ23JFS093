@@ -11,25 +11,32 @@ public class forlooptes {
 		short sh=32767;
 		short sh2=-32767;
 		
+		byte b=127;
+		byte b2=-127;
+		
 		float fl=1.4555856559554456415484485f;
 		float fl2=-3.448444484874487484f;
 		
 		long ln=9223372036854775806l;
 		long ln2=-9223372036854775806l;
 		
-		System.out.println("Float 32 bit:"+fl);
+		System.out.println("Byte 8 bit:"  +b);
+		System.out.println(b2);
+		
+		
+		System.out.println("Float 32 bit:"  +fl);
 		System.out.println(fl2 );
 		
-		System.out.println("int 32 bit:"+n);
+		System.out.println("int 32 bit:"  +n);
 		System.out.println(n2);
 		
-		System.out.println("Double 64 bit:"+dob);
+		System.out.println("Double 64 bit:"  +dob);
 		System.out.println(dob2);
          
-		System.out.println("short 16 bit:"+sh);
+		System.out.println("short 16 bit:"  +sh);
 		System.out.println(sh2);
 		
-		System.out.println("Long 64 bit"+ln);
+		System.out.println("Long 64 bit"  +ln);
 		System.out.println(ln2);
 		 }
 		 }
