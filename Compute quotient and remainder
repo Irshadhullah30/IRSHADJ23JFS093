@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class forlooptes {
+ 
+		 public static void main(String args[]){ 
+			 Scanner div=new Scanner(System.in);
+			 System.out.print("Enter the value of the Divisor:");
+			 
+			 int divisor=div.nextInt();
+			 
+			 Scanner divi=new Scanner(System.in);
+			 System.out.print("Enter the value of the Divident:");
+			
+			 int dividend=divi.nextInt();
+			 
+			 int quotient = dividend / divisor; 
+			 int remainder = dividend % divisor; 
+			 System.out.println("Quotient = " + quotient); 
+			 System.out.println("Remainder = " + remainder); 
+			 
+		 int num; 
+		 System.out.println("Enter an Integer number:"); 
+
+		 Scanner input = new Scanner(System.in); 
+		 num = input.nextInt(); 
+		 /* If number is divisible by 2 then it's an even number
+		 * else odd number*/
+		if ( num % 2 == 0 ) 
+		 System.out.println("Entered number is even"); 
+		 else
+		 System.out.println("Entered number is odd"); 
+		 } 
+
+			} 
