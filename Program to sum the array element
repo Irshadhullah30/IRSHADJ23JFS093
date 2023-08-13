@@ -1,0 +1,49 @@
+import java.util.Scanner;
+public class forlooptes {
+
+	public static void main(String[] args) {
+		
+		 Scanner numb1= new Scanner (System.in);
+		 System.out.print("Enter the First number:");
+		 
+		 int num1=numb1.nextInt();
+		 
+		 Scanner numb2= new Scanner(System.in);
+		 System.out.print("Enter tyhe second number: ");
+		 
+		 int num2=numb2.nextInt();
+		 
+		 Scanner numb3= new Scanner(System.in);
+		 System.out.print("Enter the Third number:");
+		 
+		 int num3=numb3.nextInt();
+		 
+		 Scanner numb4= new Scanner(System.in);
+		 System.out.print("Enter the Fourth number:");
+		 
+		 int num4=numb4.nextInt();
+		 
+		 Scanner numb5= new Scanner(System.in);
+		 System.out.print("Enter the Fifth number:");
+		 
+		 int num5=numb5.nextInt();
+		 
+		 Scanner numb6=new Scanner(System.in);
+		 System.out.print("Enter the Sixth number:");
+		 
+		 int num6=numb6.nextInt();
+		 
+		 
+		int[] array = {num1, num2, num3, num4, num5, num6}; 
+		int sum = 0; 
+		for( int num : array) { 
+		 sum = sum+num; 
+		 } 
+		System.out.println("The given element in a Array is:");
+		System.out.println(array);
+		 System.out.println("Sum of array elements is:"+sum); 
+		 } 
+		 }
+	 
+	
+			
