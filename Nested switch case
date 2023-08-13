@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class forlooptes {
+
+	public static void main(String[] args) {
+		Scanner input1= new Scanner(System.in);
+		System.out.println("Enetr the Number of the course:");
+		
+		int tech=input1.nextInt();
+		
+		Scanner input2=new Scanner(System.in);
+		System.out.println("Enter the numbeer of course 2:");
+		
+		int course=input2.nextInt();
+		
+		  
+		  switch(tech){ 
+		 case 1: 
+		  System.out.println("python"); 
+		  break; 
+		  case 2: 
+		  switch(course){ 
+		 case 1: 
+		  System.out.println("J2EE"); 
+		  break; 
+		  case 2: 
+		  System.out.println("advance java"); 
+		  } 
+		  } 
+		  } 
+		 } 
+
+			  
+		
+	 
+	
+	
+	 
+	
+			
